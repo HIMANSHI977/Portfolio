@@ -1,169 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Himanshi Bisht | Portfolio</title>
-
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css">
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap"
-    rel="stylesheet"
-  >
 </head>
-
 <body>
 
-
+  <!-- blobs -->
   <div class="blobs">
-
     <div class="blob blob-1"></div>
-
     <div class="blob blob-2"></div>
-
     <div class="blob blob-3"></div>
-
   </div>
 
-
-
+  <!-- particles -->
   <div class="particles">
-
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-    <div class="p"></div>
-
+    <div class="p"></div><div class="p"></div><div class="p"></div>
+    <div class="p"></div><div class="p"></div><div class="p"></div>
+    <div class="p"></div><div class="p"></div><div class="p"></div>
+    <div class="p"></div><div class="p"></div><div class="p"></div>
+    <div class="p"></div><div class="p"></div><div class="p"></div>
   </div>
+
+  <!-- NAV -->
   <nav>
-
-    <div class="nav-logo">
-      H.Bisht
-    </div>
-
+    <div class="nav-logo">H.Bisht</div>
     <ul class="nav-links">
-
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-
-      <li>
-        <a href="About.html">About</a>
-      </li>
-
-      <li>
-        <a href="Skills.html">Skills</a>
-      </li>
-
-      <li>
-        <a href="Projects.html">Projects</a>
-      </li>
-
-      <li>
-        <a href="Contact.html">Contact</a>
-      </li>
-
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-
   </nav>
 
-
-
+  <!-- HERO -->
   <section id="hero">
-
     <div class="hero-inner">
-
-
-
-      <div class="hero-content">
-
-        <div class="hero-badge">
-          BCA Student & Web Developer
-        </div>
-
-        <div class="typewriter-line">
-          console.log("Hello, World! 👋");
-        </div>
-
-        <h1 class="hero-name">
-
-          Hi, I'm <br>
-
-          <span>Himanshi Bisht</span>
-
-        </h1>
-
-        <p class="hero-sub">
-
-          A <strong>1st year BCA student</strong>
-          passionate about building beautiful,
-          interactive web experiences.
-
-          I turn ideas into reality —
-          one line of code at a time.
-
-        </p>
-
-        <div class="hero-btns">
-
-          <a href="Projects.html" class="btn btn-fill">
-            View My Work
-          </a>
-
-          <a href="Contact.html" class="btn btn-ghost">
-            Let's Connect
-          </a>
-
-        </div>
-
+      <div class="hero-badge">BCA Student &amp; Web Developer</div>
+      <div class="typewriter-line">console.log("Hello, World! 👋");</div>
+      <h1 class="hero-name">
+        Hi, I'm<br>
+        <span>Himanshi Bisht</span>
+      </h1>
+      <p class="hero-sub">
+        A <strong>1st year BCA student</strong> passionate about building beautiful, interactive web experiences. I turn ideas into reality — one line of code at a time.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-fill">View My Work</a>
+        <a href="#contact"  class="btn btn-ghost">Let's Connect</a>
       </div>
-
-
-
-      <div class="hero-image">
-
-        <img src="Assests/porfile.jpg" alt="Himanshi Bisht">
-
-      </div>
-
     </div>
-
-
-
     <div class="scroll-cue">
-
-     
-
+      <span>Scroll</span>
       <div class="scroll-line"></div>
-
     </div>
-
   </section>
 
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <p class="section-tag">About Me</p>
+      <h2 class="section-title">Who I <em>Am</em></h2>
+      <div class="section-rule"></div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Hello! I'm <strong>Himanshi Bisht</strong>, a passionate and curious <strong>1st year BCA student</strong> on a journey to master web development and programming.</p>
+          <p>I love crafting <strong>clean, interactive interfaces</strong> and building projects that solve real-world problems — from an AI-powered content generator to a real-time currency converter.</p>
+          <p>When I'm not coding, I'm constantly learning, exploring new technologies, and pushing my own limits. The best is always yet to come.</p>
+          <a href="mailto:himanshi@email.com" class="btn btn-fill" style="margin-top:1.2rem;">Say Hello 👋</a>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-num">5+</span>
+            <span class="stat-lbl">Projects Built</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">5</span>
+            <span class="stat-lbl">Skills Learned</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">1st</span>
+            <span class="stat-lbl">Year BCA</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">∞</span>
+            <span class="stat-lbl">Curiosity</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <p class="section-tag">What I Know</p>
+      <h2 class="section-title">My <em>Skills</em></h2>
+      <div class="section-rule"></div>
+      <div class="skills-grid">
 
+        <div class="skill-card">
+          <span class="skill-icon">🌐</span>
+          <div class="skill-name">HTML5</div>
+          <div class="skill-desc">Semantic markup, accessibility, SEO-friendly structure and modern HTML features.</div>
+          <div class="bar-header"><span>Proficiency</span><span>85%</span></div>
+          <div class="bar-track"><div class="bar-fill bar-85"></div></div>
+        </div>
 
+        <div class="skill-card">
+          <span class="skill-icon">🎨</span>
+          <div class="skill-name">CSS3</div>
+          <div class="skill-desc">Flexbox, Grid, animations, transitions, and responsive design for beautiful UIs.</div>
+          <div class="bar-header"><span>Proficiency</span><span>80%</span></div>
+          <div class="bar-track"><div class="bar-fill bar-80"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">⚡</span>
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-desc">DOM manipulation, event handling, APIs and building interactive web experiences.</div>
+          <div class="bar-header"><span>Proficiency</span><span>70%</span></div>
+          <div class="bar-track"><div class="bar-fill bar-70"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">🐍</span>
+          <div class="skill-name">Python</div>
+          <div class="skill-desc">Programming fundamentals, logic building, scripting and problem solving.</div>
+          <div class="bar-header"><span>Proficiency</span><span>65%</span></div>
+          <div class="bar-track"><div class="bar-fill bar-65"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">⚛️</span>
+          <div class="skill-name">React</div>
+          <div class="skill-desc">Component-based UI, hooks, state management and modern React patterns.</div>
+          <div class="bar-header"><span>Proficiency</span><span>50%</span></div>
+          <div class="bar-track"><div class="bar-fill bar-50"></div></div>
+        </div>
+
+        <div class="skill-card">
+          <span class="skill-icon">🛠️</span>
+          <div class="skill-name">Tools &amp; More</div>
+          <div class="skill-desc">Git, VS Code, browser DevTools, responsive testing and version control basics.</div>
+          <div class="bar-header"><span>Proficiency</span><span>60%</span></div>
+          <div class="bar-track"><div class="bar-fill bar-60"></div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+      <p class="section-tag">What I've Built</p>
+      <h2 class="section-title">Featured <em>Projects</em></h2>
+      <div class="section-rule"></div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="proj-num">01 — Featured</div>
+          <div class="proj-title">Interactive Quiz Website</div>
+          <div class="proj-desc">A dynamic quiz application with multiple categories, score tracking, timer, and beautiful result animations. Tests your knowledge in a fun, engaging way.</div>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <a href="#" class="proj-link">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <div class="proj-num">02 — Featured</div>
+          <div class="proj-title">AI Content Generator</div>
+          <div class="proj-desc">A smart content generation tool powered by AI APIs. Users can generate blog posts, captions, taglines and creative copy in seconds.</div>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">AI API</span>
+          </div>
+          <a href="#" class="proj-link">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <div class="proj-num">03 — Project</div>
+          <div class="proj-title">Currency Converter</div>
+          <div class="proj-desc">Real-time currency conversion using live exchange rate APIs. Supports 100+ currencies with a clean, minimal interface for quick conversions.</div>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">REST API</span>
+          </div>
+          <a href="#" class="proj-link">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <div class="proj-num">04 — Upcoming</div>
+          <div class="proj-title">More Coming Soon…</div>
+          <div class="proj-desc">I'm constantly building and learning. Stay tuned for more exciting projects as I continue my BCA journey and level up my skills every day.</div>
+          <div class="tags">
+            <span class="tag">React</span>
+            <span class="tag">Python</span>
+            <span class="tag">Full Stack</span>
+          </div>
+          <a href="#contact" class="proj-link">Let's Collaborate</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="wrap">
+      <p class="section-tag">My Journey</p>
+      <h2 class="section-title">Education &amp; <em>Growth</em></h2>
+      <div class="section-rule"></div>
+      <div class="timeline">
+
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-year">2024 — Present</div>
+          <div class="edu-degree">Bachelor of Computer Applications (BCA)</div>
+          <div class="edu-inst">1st Year Student</div>
+          <div class="edu-note">Currently studying core computer science concepts, programming fundamentals, and web development. Building real-world projects alongside academics.</div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-year">Self Learning — Ongoing</div>
+          <div class="edu-degree">Web Development &amp; Programming</div>
+          <div class="edu-inst">Online Platforms &amp; Self-Study</div>
+          <div class="edu-note">Consistently learning through online resources, building projects and staying updated with modern web technologies like React and JavaScript.</div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-year">2024</div>
+          <div class="edu-degree">Higher Secondary (12th Grade)</div>
+          <div class="edu-inst">Science Stream</div>
+          <div class="edu-note">Completed higher secondary education, laying a strong analytical foundation that fuels problem-solving in programming.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap">
+      <p class="section-tag">Get In Touch</p>
+      <h2 class="section-title">Let's <em>Connect</em></h2>
+      <div class="section-rule"></div>
+      <div class="contact-grid">
+
+        <div>
+          <p class="contact-headline">Have an idea?<br>Let's build something <em>amazing</em> together.</p>
+          <p class="contact-sub">I'm always open to collaborations, internship opportunities, or just a friendly chat about tech and code. Don't hesitate to reach out!</p>
+          <div class="contact-links">
+            <a href="mailto:himanshi@email.com" class="c-link">
+              <div class="c-icon">📧</div>
+              <div>
+                <div class="c-label">Email</div>
+                <div class="c-val">himanshi@email.com</div>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/himanshi-bisht" target="_blank" class="c-link">
+              <div class="c-icon">💼</div>
+              <div>
+                <div class="c-label">LinkedIn</div>
+                <div class="c-val">linkedin.com/in/himanshi-bisht</div>
+              </div>
+            </a>
+            <a href="https://github.com/himanshi-bisht" target="_blank" class="c-link">
+              <div class="c-icon">🐙</div>
+              <div>
+                <div class="c-label">GitHub</div>
+                <div class="c-val">github.com/himanshi-bisht</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="form-stack">
+          <input type="text"  placeholder="Your Name"    />
+          <input type="email" placeholder="Your Email"   />
+          <input type="text"  placeholder="Subject"      />
+          <textarea           placeholder="Your Message…"></textarea>
+          <button class="btn btn-fill" type="submit">Send Message ✉️</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-
-    Crafted with 💜 by
-
-    <strong>Himanshi Bisht</strong>
-
-    · BCA Student & Web Developer · 2026
-
+    Crafted with 💜 by <strong>Himanshi Bisht</strong> &nbsp;·&nbsp; BCA Student &amp; Web Developer &nbsp;·&nbsp; 2025
   </footer>
 
 </body>
