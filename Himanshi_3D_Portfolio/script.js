@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "AI-integrated web application designed to generate content.",
       stack: ["HTML", "CSS", "JavaScript", "AI integration"],
       tags: ["JavaScript", "AI"],
-      live: "https://himanshibisht1308-boop.github.io/Ai-content-genrator/",
+      live: "https://ai-content-generator-wrwt-jet.vercel.app/",
       repo: "https://github.com/HIMANSHI977/ai-content-generator",
     },
     {
