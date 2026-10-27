@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const FINE = matchMedia("(hover: hover)").matches;
 
   /* ---- Links & data (edit here) ---- */
-  const RESUME = "assets/Himanshi_Bisht_Resume.pdf";
+  const RESUME = "assets/Himanshi_Bisht_Resume_FullStack.pdf";
   const MAIL = "himanshibisht25@navgurukul.org",
     GH = "https://github.com/HIMANSHI977";
   const LI = "https://www.linkedin.com/in/himanshi-bisht-b9672237b/";
@@ -22,37 +22,67 @@ document.addEventListener("DOMContentLoaded", () => {
       "HTML5",
       "CSS3",
       "JavaScript (ES6+ and DOM)",
-      "React",
+      "React.js",
       "React Router",
       "Context API",
       "useReducer",
       "TanStack Query",
+      "Responsive Design",
     ],
     Backend: [
       "Node.js",
       "Express.js",
-      "REST API Design",
-      "MongoDB",
-      "Mongoose",
-      "SQL",
-      "Python 3",
+      "REST API Design & Integration",
+      "JWT Authentication",
+      "bcrypt",
+      "Multer",
+      "Environment Variables (.env)",
     ],
-    Tools: [
+    Database: ["MongoDB", "Mongoose", "SQL"],
+    Languages: ["JavaScript", "Python 3"],
+    "Tools & Platforms": [
       "Git",
       "GitHub",
       "Vercel",
+      "Render",
       "Axios",
       "Postman",
-      "Visual Studio Code",
+      "VS Code",
+      "Vite",
+    ],
+    "Soft Skills": [
+      "Leadership",
+      "Communication",
+      "Time Management",
+      "Problem-Solving",
     ],
     "AI & Integrations": [
-      "Gemini API",
+      "Google Gemini API",
       "REST API Integration",
-      "Environment Variables (.env)",
     ],
   };
   /* ---- Projects (edit here: each project carries its own live + repo URL) ---- */
   const PROJECTS = [
+    {
+      title: "CollabSphere – AI-Powered Developer Collaboration Platform",
+      description:
+        "Full-stack developer collaboration platform for managing projects, tasks, notes, and files. Includes JWT authentication, protected API routes, MongoDB persistence, Gemini-powered note and code workflows, project analytics, and public sharing that exposes only non-private details.",
+      stack: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "JWT",
+        "bcrypt",
+        "Google Gemini API",
+        "REST APIs",
+        "Vite",
+      ],
+      tags: ["React", "Node.js", "AI"],
+      live: "https://collabsphere-pink.vercel.app",
+      repo: "https://github.com/HIMANSHI977/Collabsphere",
+    },
     {
       title: "CareerTrack",
       description:
